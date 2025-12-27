@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url("backgroundImage.png");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    color: white;
+    text-align: left;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    position: absolute;
+    /* place the heading at the right-center of the hero image */
+    right: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #111;
+}
+
+body {
+    background-color: #97dbf8;
+    padding: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 35px;
+    top:10%;
+    padding-top: 20px;
+}
+
+/* Search form */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    padding: 8px 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.section-divider {
+  width: 80%;
+ height:4px;
+ margin: 0 auto;
+ background: linear-gradient(to right, #6a11cb, black);
+}
+/* Add product link */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9f3ff;
+}
+
+/* Delete link */
+td a {
+    color: red;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: darkred;
+}
